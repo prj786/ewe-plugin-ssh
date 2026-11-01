@@ -23,9 +23,9 @@ Column {
         visible: Ssh.safe
         ListRow {
             glyph: Theme.icLock
-            label: "Keys come from Safe"
+            label: "Keys come from ewe Safe"
             desc: "Connect GitHub, Azure or a server there"
-            kind: "Open Safe"
+            kind: "Open ewe Safe"
             onClicked: Ssh.openSafe()
         }
     }
