@@ -18,6 +18,12 @@ page lists them:
 A square-terminal glyph sits in the bar's Quick settings pill while a tunnel
 is up.
 
+With **Safe** installed (`ewe-safe`), the page starts with a row "Keys come
+from Safe": Safe holds the SSH keys and answers every `ssh` as the agent (the
+SSH gate, ewe-safe `docs/GATE.md`). The row opens Safe's SSH page
+(`ewe-safe-app --ssh`), where you connect GitHub, Azure, a server and the
+rest. The hosts here still come from `~/.ssh/config`.
+
 ## Install
 
 Komble → Plugins, or:
